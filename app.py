@@ -21,7 +21,7 @@ def msg_received_from_group():
   #Check the text of the message sent to the chat to see if it matches our command word
   if data['text'].lower() == "!test":
     send_msg("Don't hug me, I'm scared!")
-  elif data['text'].lower() == "!owo"
+  elif data['text'].lower() == "!owo":
     send_mesg("oWo *glomps you* *notices your code*") 
 	
 
