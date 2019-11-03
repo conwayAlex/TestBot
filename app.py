@@ -22,7 +22,7 @@ def msg_received_from_group():
   if data['text'].lower() == "!test":
     send_msg("Don't hug me, I'm scared!")
   elif data['text'].lower() == "!owo":
-    send_mesg("oWo *glomps you* *notices your code*") 
+    send_msg("oWo *glomps you* *notices your code*") 
 	
 
   #elif data['text'].lower() == "!testpic":
